@@ -150,6 +150,7 @@ void loop()
       Output = OutputFront;
       OutputRear = 0;
     }
+    // Change the output according to the last output used
     else if (InputFront > SetpointFront && InputRear > SetpointRear)
     {
       if (isMovingForward)
